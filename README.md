@@ -4,6 +4,8 @@
 
 [Inspired by @lauriewired post](https://twitter.com/lauriewired/status/1700982575291142594)
 
+[Inspired by @humblehack post](https://twitter.com/humblehack/status/1088982929940848647)
+
 [Discussion on Hacker News](https://news.ycombinator.com/item?id=37465086)
 
 This repo has Rust implementations of a coding challenge that searches for a sentence that describes its own SHA256 checksum.
