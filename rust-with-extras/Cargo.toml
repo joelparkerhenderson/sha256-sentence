@@ -7,4 +7,6 @@ edition = "2021"
 
 [dependencies]
 itertools = "*"
+rayon = "*"
+sha2 = "*"
 sha256 = "*"

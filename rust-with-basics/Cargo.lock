@@ -227,6 +227,7 @@ dependencies = [
 name = "sha256-sentence"
 version = "0.1.0"
 dependencies = [
+ "generic-array",
  "itertools",
  "sha256",
 ]
