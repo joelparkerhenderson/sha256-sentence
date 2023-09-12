@@ -1,3 +1,5 @@
+// Credit: https://rosettacode.org/wiki/Permutations_with_repetitions
+
 pub fn iter<T>(universe: &[T], size: usize) -> PermutationWithReplacementIterator<T> {
     PermutationWithReplacementIterator {
         universe,

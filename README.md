@@ -34,7 +34,7 @@ The [/rust-with-extras](rust-with-extras) project directory demonstrates:
 
 * Parallel iterations via the `rayon` crate.
 
-* Permutation with replacement via a custom iterator `permutation_with_replacement`.
+* Permutation with replacement via Rosetta code `permutation_with_replacement`.
 
 * A global system time variable via `once_cell` single-initialization multi-thread safety.
 
