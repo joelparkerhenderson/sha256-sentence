@@ -32,7 +32,7 @@ milliseconds: 8288, digest: "182a7c930b0e5227ff8d24b5f4500ff2fa3ee1a57bd35e52d98
 
 The [/rust-with-extras](rust-with-extras) project directory demonstrates:
 
-* Parallel iterations via the `rayon` crate.
+* Parallel iteration via the `rayon` crate.
 
 * Permutation with replacement via Rosetta code `permutation_with_replacement`.
 

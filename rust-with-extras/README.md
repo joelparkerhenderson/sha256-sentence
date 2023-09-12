@@ -8,7 +8,7 @@ This is a Rust implementation of coding challenge that searches for a sentence t
 
 This project demonstrates:
 
-* Parallel iterations via the `rayon` crate.
+* Parallel iteration via the `rayon` crate.
 
 * Permutation with replacement via Rosetta code `permutation_with_replacement`.
 
