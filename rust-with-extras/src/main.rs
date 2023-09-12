@@ -33,7 +33,7 @@ fn run(permutation: Vec<usize>) {
     let digest: String = digest(&sentence);
     if digest.starts_with(&starts) {
         println!(
-            "milliseconds: {:?}, digest: {:?}, starts: {:?}, sentence: {}",
+            "milliseconds: {:?}, digest: {:?}, starts: {:?}, sentence: {:?}",
             START.get().unwrap().elapsed().unwrap().as_millis(),
             &digest,
             &starts,

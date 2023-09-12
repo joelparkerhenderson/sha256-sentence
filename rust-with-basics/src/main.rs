@@ -20,7 +20,14 @@ fn main() {
             );
             let digest: String = digest(&sentence);
             if digest.starts_with(&starts) {
-                println!("milliseconds: {:?}, {} ", start.elapsed().unwrap().as_millis(), &sentence);
+                println!(
+                    "milliseconds: {:?}, digest: {:?}, starts: {:?}, sentence: {:?}",
+                    start.elapsed().unwrap().as_millis(),
+                    &digest,
+                    &starts,
+                    &sentence
+                );
+        
             }
         };
         length += 1;
